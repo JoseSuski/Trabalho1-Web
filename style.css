@@ -1,1 +1,88 @@
 /* Arquivo CSS do trabalho */
+
+header{
+    background: #708090 ; /* mudando a cor do background do header */
+    padding: 20px 0; 
+    height: 180px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #CCCCCC;
+}
+
+.caixa{ 
+    position: relative;
+    width: 940px;
+    margin: 0 auto; 
+}
+
+.logo{
+    width: 25%;
+}
+
+nav{
+    position: absolute; 
+    top: 60px; 
+    right: 0;
+}
+
+nav li{
+    display: inline;  
+    margin: 0 0 0 15px ; 
+}
+
+nav a{ /* alterando os links de navegaçao */
+    text-transform: uppercase;  
+    color: #000000 ; 
+    font-weight:bold ; 
+    font-size: 22px; 
+    text-decoration: none; 
+
+}
+
+nav a:hover { 
+    color: #C78C19;
+    text-decoration: underline; 
+}
+
+
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em; 
+    margin: 0 0 1em; 
+    clear: left; 
+}
+
+.banner{
+    width: 100%;
+}
+
+.mapa{
+    padding: 3em 0; 
+}
+
+.mapa p{ 
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background: #708090; 
+    padding: 40px 0;   
+    height: 180px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px; 
+}
+
+.participantes{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
