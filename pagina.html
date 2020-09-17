@@ -31,6 +31,35 @@
             <p>Nosso estabelecimento esta localizado no coraçao da cidade </p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56937.85317974022!2d-49.04503709589568!3d-26.88394433495244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df1f2b4ebc711b%3A0xca47c4b02338db14!2sFunda%C3%A7%C3%A3o%20Universidade%20Regional%20de%20Blumenau%20FURB!5e0!3m2!1spt-BR!2sbr!4v1600367970782!5m2!1spt-BR!2sbr" width="100%" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> <!-- endereço pego em google.maps.com -->
         </section>
+<main>
+    <h4 class="titulo-principal"> Entre em contato conosco</h4>
+        <form>  <!-- criando formulario para entrada de dados -->
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required> 
+
+            <label for="email">Email</label>  
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com"> 
+
+            <label for="telefone">Telefone</label>       
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX"> 
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem"  class="input-padrao" required ></textarea>  
+       
+        <fieldset> 
+            <legend class="teste" id="teste">Como prefere o nosso contato</legend> 
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label> 
+            <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+            <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label> 
+        </fieldset>
+
+
+        <label class="checkbox"> <input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label> 
+            
+        <input type="submit" value="Enviar formulário" class="enviar"> 
+        </form>
+   </main>
+
 
         <footer>
             <P class="copyright"> &#9400 Copyright FURB Sports 2020 </P>

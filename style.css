@@ -32,7 +32,7 @@ nav li{
     margin: 0 0 0 15px ; 
 }
 
-nav a{ /* alterando os links de navegaçao */
+nav a{ 
     text-transform: uppercase;  
     color: #000000 ; 
     font-weight:bold ; 
@@ -66,6 +66,42 @@ nav a:hover {
 .mapa p{ 
     margin-bottom: 2em;
     text-align: center;
+}
+
+main{ 
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0 ;
+    
+}
+
+form label{ 
+    display: block;
+    font-size: 20px;
+    margin:0 0 10px; 
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px; 
+    padding:10px 25px;
+    width:50%; 
+}
+
+.enviar{  
+    width: 40%; /* alterando a largura do botao */
+    padding: 15px 0; /* alterando o espaçamento interno */
+    background: orange; /*  mudando a cor de fundo do botao para laranjado */
+    color: white; /*  mechendo na cor do texto */
+    font-weight: bold; /* deixando o texto em negrito */
+    font-size: 18px; /*  alterando o tamanho da fonte */
+    border: none;  /* tirando a borda padrao */
+    border-radius: 5px; /*  arredondando a borda do enviar */
+    
+
 }
 
 footer{
