@@ -38,7 +38,6 @@ nav a{
     font-weight:bold ; 
     font-size: 22px; 
     text-decoration: none; 
-
 }
 
 nav a:hover { 
@@ -74,8 +73,7 @@ main{
 }
 
 form{
-    margin: 40px 0 ;
-    
+    margin: 40px 0 ;   
 }
 
 form label{ 
@@ -100,8 +98,6 @@ form label{
     font-size: 18px; /*  alterando o tamanho da fonte */
     border: none;  /* tirando a borda padrao */
     border-radius: 5px; /*  arredondando a borda do enviar */
-    
-
 }
 
 footer{
