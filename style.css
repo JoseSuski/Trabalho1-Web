@@ -1,7 +1,7 @@
 /* Arquivo CSS do trabalho */
 
 header{
-    background: #708090 ; /* mudando a cor do background do header */
+    background: #708090 ; 
     padding: 20px 0; 
     height: 180px;
 }
@@ -107,14 +107,63 @@ form label{
 }
 
 .enviar{  
-    width: 40%; /* alterando a largura do botao */
-    padding: 15px 0; /* alterando o espaçamento interno */
-    background: orange; /*  mudando a cor de fundo do botao para laranjado */
-    color: white; /*  mechendo na cor do texto */
-    font-weight: bold; /* deixando o texto em negrito */
-    font-size: 18px; /*  alterando o tamanho da fonte */
-    border: none;  /* tirando a borda padrao */
-    border-radius: 5px; /*  arredondando a borda do enviar */
+    width: 40%; 
+    padding: 15px 0; 
+    background: orange;
+    color: white; 
+    font-weight: bold; 
+    font-size: 18px;
+    border: none; 
+    border-radius: 5px; 
+}
+
+/* pagina produtos */
+.produtos{ 
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0; 
+}
+
+.produtos li{ 
+    display: inline-block; 
+    text-align: center;
+    width: 30%; 
+    margin: 20px 1.5%;  
+    vertical-align: top; 
+    padding: 30px 20px; 
+    box-sizing:border-box ; 
+    border-color: #000000 ; 
+    border-width: 2px ; 
+    border-style: solid ; 
+    border-radius: 10px;
+}
+
+.produtos li:hover{   
+    border-color: #C78C19;
+}
+ 
+
+.produtos li:active {  
+    border-color: #088C19;
+}
+
+.produtos h2{
+    font-size: 30px; 
+    font-weight: bold; 
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px; 
+}
+
+.marca{
+    text-decoration: underline;
 }
 
 footer{
