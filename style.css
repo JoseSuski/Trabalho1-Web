@@ -102,6 +102,10 @@ form label{
     width:50%; 
 }
 
+.mapa{
+    text-align: center;
+}
+
 .enviar{  
     width: 40%; /* alterando a largura do botao */
     padding: 15px 0; /* alterando o espaçamento interno */
